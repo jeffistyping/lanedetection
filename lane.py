@@ -30,7 +30,7 @@ def avg_yb(image, lines):
 	return np.array([ll,rl])
 
 def region_of_interest(image):
-	h = image.shape[0] - 20 #avoiding the car hood lol
+	h = image.shape[0] - 20 #avoiding the car hood
 	leftcorner = (200,h)
 	rightcorner = (1030,h)
 	topleft  = (540, 540)
